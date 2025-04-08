@@ -295,8 +295,8 @@ p,
 .ud-btn-transparent,
 .ud-btn-border-theme{
   background-color: transparent;
-  border: 1px solid #9D30b1;
-  color:#9D30b1;
+  border: 1px solid #071969;
+  color:#ccc4ce;
   border-radius: 12px;
   display: inline-block;
   font-size: 15px;
@@ -318,12 +318,12 @@ p,
 }
 .ud-btn-border-theme{
   background-color: #fff;
-  border: 1px solid #9D30b1;
+  border: 1px solid #071969;
   border-radius: 12px;
   transition: all 300ms ease;
 }
 .ud-btn-border-theme:hover{
-  background:linear-gradient(to right,#8641f8,#9D30b1);
+  background:linear-gradient(to right,#102fb9,#071969);
   color: #fff;
 }
 .ud-btn-border-theme:hover i{
@@ -517,7 +517,7 @@ p,
 }
 .mb10{
   margin-bottom: 10px;
-  color: #b37dff;
+  color: #071969;
 }
 .mb15{
   margin-bottom: 15px;
@@ -605,6 +605,15 @@ p,
 .auto-container {
   position: static;
   /* max-width: 800px; */
+  padding: 0px 15px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.autos-container {
+  position: static;
+  /* max-width: 800px; */
+  background: #a3a0a0;
   padding: 0px 15px;
   margin: 0 auto;
   width: 90%;
@@ -1338,14 +1347,14 @@ Content Elements
   margin-bottom: 20px;
 }
 .login-btn{
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
   color: white;
   text-align: center;
   font-size: 14px;
 }
 .login-btn:hover{
   color: white;
-  background: linear-gradient(to right,#7739db,#722380);
+  background: linear-gradient(to right,#029cb3,#071969);
 }
 
 /*==========================
@@ -1457,14 +1466,14 @@ Scroll To Top
   display: none;
   cursor: pointer;
   background-color: #23293e;
-  color: #9D30b1;
+  color: #1b2a6e;
   background-color: #E6E6FA ;
   transition: all 300ms ease;
 }
 
 .scroll-to-top:hover {
   color: #ffffff;
-  background-color: #9D30b1;
+  background-color: #071969;
 }
 
 .scroll-to-top.style-two {
@@ -1665,7 +1674,7 @@ About Section
 
 .feature-title{
   font-size: 40px;
-  color: #2f0b63;
+  color: #071969;
 }
 
 .play-btn {
@@ -1808,6 +1817,9 @@ About Section Two
     background-size: cover;        /* Scales the image to cover the entire element */
     background-position: center; 
     color: white;
+    background-size: cover;
+    background-color: rgba(2, 211, 170, 0.5); /* Tint with #029cb3 and 50% transparency */
+    background-blend-mode: overlay; /* Blend the image with the blue overlay */
 }
 .about-section-two {
   position: relative;
@@ -1877,7 +1889,7 @@ About Section Two
 .applicants-list .title-box {
   position: relative;
   height: 50px;
-  background: #1967D2;
+  background: #d21991;
   border-radius: 8px 8px 0px 0px;
   display: flex;
   justify-content: center;
@@ -2041,7 +2053,7 @@ Accordian Box
   line-height: 30px;
   color: white;
   font-weight: 500;
-  background: linear-gradient(to right, #8641f8, #9D30b1);
+  background: linear-gradient(to right, #071969, #102fb9);
   cursor: pointer;
   transition: all 300ms ease;
 }
@@ -2403,7 +2415,7 @@ Buttons Styles
   white-space: nowrap;
 
   color: #ffffff;
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
   font-size: 15px;
 
   line-height: 20px;
@@ -2414,7 +2426,7 @@ Buttons Styles
 
 
 .btn-style-one-1{
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
 }
 
 .btn-style-one i,
@@ -2424,7 +2436,7 @@ Buttons Styles
 
 .btn-style-one:hover {
   color: #ffffff;
-  background-color: #0146A6;
+  background-color: #0b53b7;
 }
 
 /* Btn Style Two */
@@ -2433,7 +2445,7 @@ Buttons Styles
   text-align: center;
   white-space: nowrap;
   color: white !important;
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
   font-size: 15px;
   line-height: 20px;
   border-radius: 8px;
@@ -2443,20 +2455,20 @@ Buttons Styles
 
 .btn-style-two:hover {
   color: #202124;
-  background-color: #581a63;
+  background-color: #0b53b7;
 }
 
 .loginReg-btn{
   color: white;
   background: transparent;
-  border: 2px solid #9D30b1;
+  border: 2px solid #0b53b7;
   border-radius: 10px;
   padding: 6px 15px;
   font-size: 14px;
 }
 .loginReg-btn:hover{
   color: white;
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
 }
 /* Btn Style Three */
 .btn-style-three {
@@ -2465,7 +2477,7 @@ Buttons Styles
   white-space: nowrap;
   color: white;
   background-color: transparent;
-  border: 2px solid #9D30b1;
+  border: 2px solid #0b53b7;
   font-size: 15px;
   line-height: 20px;
   border-radius: 8px;
@@ -2484,15 +2496,15 @@ Buttons Styles
     padding: 15px 15px 15px 15px;
 }
 .btn-style-three-pricing:hover{
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
 }
 .btn-style-three-bg{
   position: relative;
   text-align: center;
   white-space: nowrap;
   color: white;
-  background: linear-gradient(to right,#8641f8,#9D30b1);
-  border: 2px solid #9D30b1;
+  background: linear-gradient(to right,#102fb9,#071969);
+  border: 2px solid #0b53b7;
   font-size: 15px;
   line-height: 20px;
   border-radius: 8px;
@@ -2503,7 +2515,7 @@ Buttons Styles
 .btn-style-three:hover {
 
   color: #FFFFFF;
-  background: linear-gradient(to right,#8641f8,#9D30b1)
+  background: linear-gradient(to right,#102fb9,#071969)
 
 }
 
@@ -3349,7 +3361,7 @@ Top Companies
 }
 
 .company-block-four h4 a:hover {
-  color: #9D30b1;
+  color: #071969;
 }
 
 .company-block-four .job-info {
@@ -3444,7 +3456,7 @@ Top Companies
 text-align: center;
 white-space: nowrap;
 color: #ffffff;
-background: linear-gradient(#8641f8,#9d30b1);
+background: linear-gradient(to right,#102fb9,#071969);
 line-height: 20px;
 border-radius: 8px;
 font-weight: 400;
@@ -3462,7 +3474,7 @@ padding: 15px 35px;
   text-align: center;
   white-space: nowrap;
   color: white;
-  background: linear-gradient(#8641f8,#9d30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
   font-size: 16px;
   line-height: 20px;
   border-radius: 8px;
@@ -5295,6 +5307,13 @@ Main Footer
   padding-bottom: 50px;
 }
 
+.main-footer .widgetss-section {
+  position: relative;
+  background: #a3a0a0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
 .main-footer .footer-column {
   position: relative;
   margin-bottom: 50px;
@@ -5339,7 +5358,7 @@ Main Footer
 }
 
 .main-footer .phone-num a {
-  color: #9D30b1;
+  color: #071969;
 }
 
 .main-footer .address {
@@ -5350,7 +5369,7 @@ Main Footer
 }
 
 .main-footer .address a {
-  color: #9D30b1;
+  color: #071969;
 }
 
 /*=== Cities Widget ===*/
@@ -5405,6 +5424,16 @@ Main Footer
   position: relative;
   width: 100%;
   padding: 36px 0;
+  text-align: center;
+  border-top: 1px solid #ECEDF2;
+  min-height: 100px;
+}
+
+.main-footer .footers-bottom {
+  position: relative;
+  width: 100%;
+  padding: 36px 0;
+  background: #a3a0a0;
   text-align: center;
   border-top: 1px solid #ECEDF2;
   min-height: 100px;
@@ -6068,8 +6097,17 @@ Main Header
   padding: 0 60px;
   max-width: 1920px;
   margin: 0 auto;
-  background: url("../images/home-banner-bg.png");
+  background: url("../images/home-banner-bg.png") no-repeat center center;
+  background-size: cover;
+  background: linear-gradient(to right, 
+    rgba(2, 116, 120, 1),   /* Darker bluish color (no transparency) */
+    rgba(0, 123, 120, 1),   /* Dark teal color (no transparency) */
+    rgba(2, 66, 119, 1));
+  background-blend-mode: overlay; /* Blend the image with the blue overlay */
 }
+
+
+
 
 .main-header .nav-outer {
   position: relative;
@@ -6147,7 +6185,7 @@ Main Header
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li.current > span {
-  color: #d566e9;
+  color: #071969;
   /* text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); */
 }
 
@@ -6242,13 +6280,13 @@ Main Header
 
 .main-menu .navigation > li > ul > li > span:hover,
 .main-menu .navigation > li > ul > li > a:hover {
-  color: #1967D2;
+  color: #071969;
 }
 
 .main-menu .navigation > li.current.dropdown > span:after,
 .main-menu .navigation > li > ul > li > ul > li.current > a,
 .main-menu .navigation > li > ul > li.current > a {
-  color: #1967D2;
+  color: #071969;
 }
 
 .main-menu .navigation > li > ul > li > ul {
@@ -6260,7 +6298,7 @@ Main Header
   margin-top: -57px;
   opacity: 0;
   z-index: 1;
-  border-top: 2px solid #1967D2;
+  border-top: 2px solid #071969;
   background-color: #fff;
   -ms-box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
   box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
@@ -6289,7 +6327,7 @@ Main Header
 
 .main-menu .navigation > li > ul > li > ul > li > a:hover,
 .main-menu .navigation > li > ul > li > ul > li > span:hover {
-  color: #1967D2;
+  color: #071969;
 }
 
 .main-menu .navigation > li > ul > li.dropdown > span:before {
@@ -6380,7 +6418,7 @@ Main Header
   top: -4px;
   height: 16px;
   width: 16px;
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
   border-radius: 50%;
   color: #ffffff;
   line-height: 16px;
@@ -6445,13 +6483,13 @@ Main Header
 }
 
 .theme-clone:hover{
-  background: linear-gradient(135deg, #9d30b1, #8641f8);
+  background: linear-gradient(135deg, #1f525c, #071969, #040e38);
   
   color: #fff;
 
 }
 .gradient-text {
-  background: linear-gradient(135deg, #9d30b1, #8641f8);
+  background: linear-gradient(135deg, #1f525c, #071969, #040e38);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -6715,7 +6753,7 @@ Sticky Header
 .sticky-header .main-menu .navigation > li.current > span,
 .sticky-header .main-menu .navigation > li.current.dropdown > a:after,
 .sticky-header .main-menu .navigation > li.current > a {
-  color: #1967D2;
+  color: #071969;
 }
 
 .text-resume{
@@ -6753,7 +6791,7 @@ Mobile Header
 }
 
 .mobile-header .logo img {
-  max-height: 30px;
+  max-height: 60px;
 }
 
 .mobile-header .nav-outer {
@@ -6928,7 +6966,7 @@ Job Categories
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1967D2;
+  color: #071969;
   font-size: 36px;
   border-radius: 10px;
   transition: all 300ms ease;
@@ -6953,7 +6991,7 @@ Job Categories
 }
 
 .category-block h4 a:hover {
-  color: #1967D2;
+  color: #071969;
 }
 
 .category-block p {
@@ -7030,7 +7068,7 @@ Job Categories
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1967D2;
+  color: #071969;
   font-size: 36px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -7039,7 +7077,7 @@ Job Categories
 
 .category-block-two .inner-box:hover .icon {
   color: #ffffff;
-  background: #1967D2;
+  background: #071969;
 }
 .category-block-two.at-home21 .inner-box{
   background-color: #fff;
@@ -7063,7 +7101,7 @@ Job Categories
   padding: 30px;
 }
 .category-block-two.at-home22 .icon{
-  background-color: #1967D2;
+  background-color: #071969;
   color: #FFFFFF;
 }
 
@@ -11200,7 +11238,7 @@ b:before {
 }
 
 .company-widget .btn-box .theme-btn:hover {
-  background: linear-gradient(to right,#8641f8,#9D30b1);
+  background: linear-gradient(to right,#102fb9,#071969);
 }
 
 .sidebar-widget.contact-widget .theme-btn {
@@ -14003,7 +14041,10 @@ Call To Action Two
   background-size: cover;
   padding: 170px 0 160px;
   text-align: center;
-  background-image: url("../images/home-banner-bg.png");
+  background: url("../images/home-banner-bg.png") no-repeat center center;
+  background-size: cover;
+  background-color: rgba(2, 211, 170, 0.5); /* Tint with #029cb3 and 50% transparency */
+  background-blend-mode: overlay; /* Blend the image with the blue overlay */
 }
 
 .call-to-action-two .sec-title {
@@ -18341,6 +18382,10 @@ Product Tabs
 }
 .banner-section-three.at-home19{
   background-image: url(../images/index-19/home19-hero-bg.png);
+  background: linear-gradient(to right, 
+    rgba(2, 116, 120, 1),   /* Darker bluish color (no transparency) */
+    rgba(0, 123, 120, 1),   /* Dark teal color (no transparency) */
+    rgba(2, 66, 119, 1));
   height: 860px;
 }
 .banner-section-three.at-home20{
@@ -18355,6 +18400,11 @@ Product Tabs
     background-repeat: no-repeat;
     background-size: cover; /* Scales the image to cover the entire element */
     background-position: center;
+    background: linear-gradient(to right, 
+    rgba(2, 116, 120, 0.9),   /* Darker bluish color (no transparency) */
+    rgba(0, 123, 120, 0.9),   /* Dark teal color (no transparency) */
+    rgba(2, 66, 119, 0.9));
+    background-blend-mode: overlay; /* Blend the image with the blue overlay */
 }
 .home21-hero-img{
   bottom: 0;
@@ -18457,7 +18507,7 @@ Product Tabs
 }
 
 .theme-btn.-black {
-  background-color: #000;
+  background-color: #071969;
   color: white;
   padding: 15px 50px;
   border-radius: 8px;
@@ -19382,7 +19432,7 @@ Product Tabs
 }
 
 .banner-section.-type-14 .theme-btn {
-  background: linear-gradient(82.3deg, #FB803E 1.19%, #FE9665 95.09%) !important;
+  background: linear-gradient(82.3deg, #FB813E 1.19%, #FE9665 95.09%) !important;
   color: #202124;
 }
 

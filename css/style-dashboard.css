@@ -323,7 +323,7 @@ p,
   transition: all 300ms ease;
 }
 .ud-btn-border-theme:hover{
-  background:linear-gradient(to right,#8641f8,#9D30b1);
+  background:linear-gradient(to right,#029cb3,#071969);
   color: #fff;
 }
 .ud-btn-border-theme:hover i{
